@@ -97,7 +97,7 @@
 Вы имеете право:
 
 - получить информацию о том, какие данные о вас хранятся;
-- удалить учётную запись и связанные с ней данные, обратившись к нам на почту support@avzory.com;
+- удалить учётную запись и связанные с ней данные, обратившись к нам на почту wordzap@avzory.com;
 - экспортировать все свои слова и переводы в файл CSV через меню **⋮ → Экспорт**;
 - в любой момент отозвать разрешение на микрофон или уведомления в настройках Android.
 
@@ -219,7 +219,7 @@ Your GigaChat API key is stored in the device's secure local storage and is neve
 You have the right to:
 
 - request information about what data we hold about you;
-- delete your account and associated data by contacting us support@avzory.com;
+- delete your account and associated data by contacting us wordzap@avzory.com;
 - export all your words and translations to a CSV file via the **⋮ → Export** menu;
 - revoke microphone or notification permissions at any time in Android settings.
 
