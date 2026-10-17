@@ -3,7 +3,7 @@
 **Application:** EvoNotes
 **Package:** `com.avzory.EvoNotes`
 **Effective date:** 2026-05-03
-**Contact:** support@avzory.tech
+**Contact:** evonotes@avzory.com
 
 ---
 
@@ -84,7 +84,7 @@ You can at any time:
 - **Access / export** your data — using the in-app export feature.
 - **Edit / delete** any note, to-do, or event individually.
 - **Sign out** — removes your session token from the device. Your local copy remains until you choose to clear it.
-- **Delete your account** — write to support@avzory.tech; we will remove your account and synced content from our server.
+- **Delete your account** — write to evonotes@avzory.com; we will remove your account and synced content from our server.
 - **Revoke permissions** — microphone and notifications can be revoked in your device's system settings.
 
 Depending on your jurisdiction (e.g., GDPR), you also have the right to lodge a complaint with your local data protection authority.
@@ -108,7 +108,7 @@ We may update this policy from time to time. The "Effective date" at the top wil
 
 ## 11. Contact
 
-Questions, requests, or complaints: **support@avzory.tech**
+Questions, requests, or complaints: **evonotes@avzory.com**
 
 ---
 ---
@@ -118,7 +118,7 @@ Questions, requests, or complaints: **support@avzory.tech**
 **Приложение:** EvoNotes
 **Идентификатор пакета:** `com.avzory.EvoNotes`
 **Дата вступления в силу:** 2026-05-03
-**Контакт:** support@avzory.tech
+**Контакт:** evonotes@avzory.com
 
 ---
 
@@ -199,7 +199,7 @@ EvoNotes — это персональный органайзер для зам�
 - **Получить / экспортировать** свои данные — через встроенную функцию экспорта.
 - **Изменить / удалить** любую заметку, задачу или событие.
 - **Выйти из аккаунта** — токен сессии будет удалён с устройства. Локальная копия останется до тех пор, пока вы её не очистите.
-- **Удалить аккаунт** — напишите на support@avzory.tech, мы удалим аккаунт и синхронизированный контент с сервера.
+- **Удалить аккаунт** — напишите на evonotes@avzory.com, мы удалим аккаунт и синхронизированный контент с сервера.
 - **Отозвать разрешения** — микрофон и уведомления отзываются в системных настройках устройства.
 
 В зависимости от юрисдикции (например, GDPR / 152-ФЗ) у вас также может быть право подать жалобу в надзорный орган по защите персональных данных.
@@ -223,4 +223,4 @@ EvoNotes не предназначено для детей младше 13 ле�
 
 ## 11. Контакты
 
-Вопросы, запросы и жалобы: **support@avzory.tech**
+Вопросы, запросы и жалобы: **evonotes@avzory.com**
