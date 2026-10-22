@@ -2,7 +2,7 @@
 
 **Application:** EvoNotes
 **Package:** `com.avzory.EvoNotes`
-**Effective date:** 2026-05-03
+**Effective date:** 2026-10-22
 **Contact:** evonotes@avzory.com
 
 ---
@@ -47,12 +47,13 @@ We do **not** collect: precise location, contacts, advertising identifiers, brow
 - A local copy of all your notes, to-dos, and events — stored in a local SQLite database (`sqflite`).
 - Soft-deleted items in the trash, until you restore or permanently delete them.
 - Scheduled local notifications.
+- Events from your phone's calendars (Google Calendar, Samsung Calendar, Outlook and others synced to the device) — only if you turn on calendars in the calendar tab menu. They are read with the Android "Calendar" permission solely to display them in EvoNotes; they are never copied into the app, synced, backed up or sent to our server. The list of calendars you selected is stored on the device.
 
 ## 3. Why We Collect This Data (Legal Basis)
 
 - **Performance of a contract** — we need your account data and content to actually provide the service you signed up for.
 - **Legitimate interest** — version checks and anonymous pings help us keep the service stable and notify you about important updates.
-- **Consent** — microphone access (for audio notes) and notification permission are requested explicitly and can be revoked at any time in your device settings.
+- **Consent** — microphone access (for audio notes), notification permission and calendar access (to show your phone's calendars) are requested explicitly and can be revoked at any time in your device settings.
 
 ## 4. Where Your Data Is Stored
 
@@ -85,7 +86,7 @@ You can at any time:
 - **Edit / delete** any note, to-do, or event individually.
 - **Sign out** — removes your session token from the device. Your local copy remains until you choose to clear it.
 - **Delete your account** — write to evonotes@avzory.com; we will remove your account and synced content from our server.
-- **Revoke permissions** — microphone and notifications can be revoked in your device's system settings.
+- **Revoke permissions** — microphone, notifications and calendar access can be revoked in your device's system settings.
 
 Depending on your jurisdiction (e.g., GDPR), you also have the right to lodge a complaint with your local data protection authority.
 
@@ -117,7 +118,7 @@ Questions, requests, or complaints: **evonotes@avzory.com**
 
 **Приложение:** EvoNotes
 **Идентификатор пакета:** `com.avzory.EvoNotes`
-**Дата вступления в силу:** 2026-05-03
+**Дата вступления в силу:** 2026-10-22
 **Контакт:** evonotes@avzory.com
 
 ---
@@ -162,12 +163,13 @@ EvoNotes — это персональный органайзер для зам�
 - Локальная копия всех заметок, задач и событий — локальная база SQLite (`sqflite`).
 - Удалённые в корзину элементы, пока вы их не восстановили или не удалили окончательно.
 - Запланированные локальные уведомления.
+- События календарей телефона (Google Календарь, календарь Samsung, Outlook и другие, синхронизированные с устройством) — только если вы включите календари в меню вкладки «Календарь». Они читаются по разрешению Android «Календарь» исключительно для показа в EvoNotes: не копируются в приложение, не синхронизируются, не попадают в бэкап и не отправляются на наш сервер. Список выбранных календарей хранится на устройстве.
 
 ## 3. Зачем мы собираем эти данные (правовое основание)
 
 - **Исполнение договора** — без данных аккаунта и контента мы не сможем оказать услугу, на которую вы подписались.
 - **Законный интерес** — проверка версии и анонимные пинги нужны, чтобы поддерживать стабильность сервиса и сообщать вам о важных обновлениях.
-- **Согласие** — доступ к микрофону (для аудиозаметок) и разрешение на уведомления запрашиваются явно и могут быть отозваны в системных настройках в любой момент.
+- **Согласие** — доступ к микрофону (для аудиозаметок), разрешение на уведомления и доступ к календарю (для показа календарей телефона) запрашиваются явно и могут быть отозваны в системных настройках в любой момент.
 
 ## 4. Где хранятся ваши данные
 
@@ -200,7 +202,7 @@ EvoNotes — это персональный органайзер для зам�
 - **Изменить / удалить** любую заметку, задачу или событие.
 - **Выйти из аккаунта** — токен сессии будет удалён с устройства. Локальная копия останется до тех пор, пока вы её не очистите.
 - **Удалить аккаунт** — напишите на evonotes@avzory.com, мы удалим аккаунт и синхронизированный контент с сервера.
-- **Отозвать разрешения** — микрофон и уведомления отзываются в системных настройках устройства.
+- **Отозвать разрешения** — микрофон, уведомления и доступ к календарю отзываются в системных настройках устройства.
 
 В зависимости от юрисдикции (например, GDPR / 152-ФЗ) у вас также может быть право подать жалобу в надзорный орган по защите персональных данных.
 
