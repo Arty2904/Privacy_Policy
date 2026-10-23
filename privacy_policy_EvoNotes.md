@@ -82,7 +82,7 @@ We will disclose data only when required by applicable law (e.g., a valid legal 
 ## 7. Your Rights
 
 You can at any time:
-- **Access / export** your data — using the in-app export feature.
+- **Access** your data — directly in the app.
 - **Edit / delete** any note, to-do, or event individually.
 - **Sign out** — removes your session token from the device. Your local copy remains until you choose to clear it.
 - **Delete your account** — write to evonotes@avzory.com; we will remove your account and synced content from our server.
@@ -198,7 +198,7 @@ EvoNotes — это персональный органайзер для зам�
 ## 7. Ваши права
 
 В любой момент вы можете:
-- **Получить / экспортировать** свои данные — через встроенную функцию экспорта.
+- **Получить доступ** к своим данным — прямо в приложении.
 - **Изменить / удалить** любую заметку, задачу или событие.
 - **Выйти из аккаунта** — токен сессии будет удалён с устройства. Локальная копия останется до тех пор, пока вы её не очистите.
 - **Удалить аккаунт** — напишите на evonotes@avzory.com, мы удалим аккаунт и синхронизированный контент с сервера.
