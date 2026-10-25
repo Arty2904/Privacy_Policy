@@ -1,7 +1,7 @@
 # WordZap — Политика конфиденциальности / Privacy Policy
 
-**Дата вступления в силу: 12 марта 2026 г.**  
-**Effective date: March 12, 2026**
+**Дата вступления в силу: 25 октября 2026 г.**  
+**Effective date: October 25, 2026**
 
 ---
 
@@ -28,9 +28,10 @@
 При каждом запуске Приложение отправляет на сервер следующие технические данные:
 
 - анонимный идентификатор устройства (Android ID);
+- модель устройства (производитель и модель, например «Google Pixel 9 Pro»);
 - версию Приложения.
 
-> 💡 Эти данные используются исключительно для подсчёта числа установок и проверки актуальности версии. Они не позволяют идентифицировать конкретного человека.
+> 💡 Эти данные используются исключительно для подсчёта числа установок, проверки актуальности версии и понимания, на каких устройствах работает Приложение. Они не позволяют идентифицировать конкретного человека.
 
 #### 1.3 Пользовательский контент
 
@@ -150,9 +151,10 @@ When you register or sign in via email or Google account, we receive:
 Each time the App launches, it sends the following technical data to the server:
 
 - anonymous device identifier (Android ID);
+- device model (manufacturer and model, e.g. "Google Pixel 9 Pro");
 - App version.
 
-> 💡 This data is used solely to count the number of installations and verify that the App is up to date. It cannot be used to identify a specific individual.
+> 💡 This data is used solely to count the number of installations, verify that the App is up to date and see which devices the App runs on. It cannot be used to identify a specific individual.
 
 #### 1.3 User Content
 
