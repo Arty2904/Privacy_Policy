@@ -1,7 +1,7 @@
 # Privacy Policy — QR Scanner
 # Политика конфиденциальности — QR Scanner
 
-**Last updated / Последнее обновление: March 12, 2026**
+**Last updated / Последнее обновление: October 25, 2026**
 
 ---
 
@@ -14,11 +14,12 @@ QR Scanner is a free mobile application for scanning and creating QR codes. We a
 ### Data We Collect
 
 **Anonymous usage statistics** — when you launch the app, an anonymous ping is sent to our server containing:
-- A randomly generated device ID (UUID, created on first launch)
+- Anonymous device identifier (Android ID)
+- Device model (manufacturer and model, e.g. "Google Pixel 9 Pro")
 - App version number
 - No personal data, no name, no email, no location
 
-This data is used solely to count active installs and check for available app updates. It cannot be used to identify you personally.
+This data is used solely to count active installs, check for available app updates and see which devices the app runs on. It cannot be used to identify you personally.
 
 ### Data We Do NOT Collect
 
@@ -58,11 +59,11 @@ QR Scanner does not knowingly collect any information from children under the ag
 
 ### Data Retention
 
-Anonymous usage statistics (UUID + version) are retained on our server for up to 12 months, after which they are automatically deleted.
+Anonymous usage statistics (device identifier, device model and app version) are retained on our server for up to 12 months, after which they are automatically deleted.
 
 ### Your Rights
 
-Since we do not collect personal data, there is nothing to request deletion of. If you wish to reset your anonymous device ID, clear the app's data in your device **Settings → Apps → QR Scanner → Clear Data**.
+Since we do not collect personal data, there is nothing to request deletion of. The Android ID is assigned by the Android system: it does not change when the app is reinstalled or its data is cleared, and is reset by a factory reset of the device. If you want the statistics for your device deleted, open an issue on our [GitHub repository](https://github.com/Arty2904/Config).
 
 ### Changes to This Policy
 
@@ -83,11 +84,12 @@ QR Scanner — бесплатное мобильное приложение дл
 ### Данные, которые мы собираем
 
 **Анонимная статистика использования** — при запуске приложения на наш сервер отправляется анонимный запрос, содержащий:
-- Случайно сгенерированный идентификатор устройства (UUID, создаётся при первом запуске)
+- Анонимный идентификатор устройства (Android ID)
+- Модель устройства (производитель и модель, например «Google Pixel 9 Pro»)
 - Версию приложения
 - Никаких личных данных, имён, email-адресов или геолокации
 
-Эти данные используются исключительно для подсчёта активных установок и проверки доступных обновлений. Они не позволяют идентифицировать вас лично.
+Эти данные используются исключительно для подсчёта активных установок, проверки доступных обновлений и понимания, на каких устройствах работает приложение. Они не позволяют идентифицировать вас лично.
 
 ### Данные, которые мы НЕ собираем
 
@@ -127,11 +129,11 @@ QR Scanner не собирает намеренно никакой информ�
 
 ### Срок хранения данных
 
-Анонимная статистика (UUID + версия) хранится на нашем сервере не более 12 месяцев, после чего автоматически удаляется.
+Анонимная статистика (идентификатор устройства, модель устройства и версия приложения) хранится на нашем сервере не более 12 месяцев, после чего автоматически удаляется.
 
 ### Ваши права
 
-Поскольку мы не собираем персональные данные, запрашивать их удаление не требуется. Если вы хотите сбросить анонимный идентификатор устройства, очистите данные приложения: **Настройки → Приложения → QR Scanner → Очистить данные**.
+Поскольку мы не собираем персональные данные, запрашивать их удаление не требуется. Android ID присваивается системой Android: он не меняется при переустановке приложения или очистке его данных и сбрасывается при сбросе устройства к заводским настройкам. Если вы хотите удалить статистику по вашему устройству, создайте обращение в нашем [репозитории на GitHub](https://github.com/Arty2904/Config).
 
 ### Изменения политики
 
