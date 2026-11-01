@@ -2,7 +2,7 @@
 
 **Application:** EvoNotes
 **Package:** `com.avzory.EvoNotes`
-**Effective date:** 2026-10-25
+**Effective date:** 2026-11-01
 **Contact:** evonotes@avzory.com
 
 ---
@@ -38,6 +38,7 @@ This document explains **what** data we collect, **why** we collect it, **where*
 |---|---|
 | App version, package name (`evonotes`) | Version check, deciding whether to suggest or force an update |
 | "Ping" on app start: anonymous device identifier (Android ID — unique to the device and this app, not an advertising identifier), device model (manufacturer and model, e.g. "Google Pixel 9 Pro"), app version, time of launch | Counting installations and active devices (a reinstall on the same phone is not counted as a new device), basic availability monitoring, checking which devices the app runs on |
+| "Ping" when the web version (evonotes.avzory.tech) is opened while signed in: your account, browser name (e.g. "Chrome", "Firefox"), app version, time of opening. The Android ID and device model are not collected on the website | Counting web users (the first sign-in on the website counts as an installation, later ones as visits), checking which browsers the website runs in |
 | OS-level notification permission state | Showing local reminders for events and to-dos |
 
 We do **not** collect: precise location, contacts, advertising identifiers, browsing history, microphone audio outside of recordings you explicitly create, or analytics about how you tap inside the app.
@@ -118,7 +119,7 @@ Questions, requests, or complaints: **evonotes@avzory.com**
 
 **Приложение:** EvoNotes
 **Идентификатор пакета:** `com.avzory.EvoNotes`
-**Дата вступления в силу:** 2026-10-25
+**Дата вступления в силу:** 2026-11-01
 **Контакт:** evonotes@avzory.com
 
 ---
@@ -154,6 +155,7 @@ EvoNotes — это персональный органайзер для зам�
 |---|---|
 | Версия приложения, имя пакета (`evonotes`) | Проверка версии, решение о soft/force обновлении |
 | «Пинг» при запуске: анонимный идентификатор устройства (Android ID — свой у устройства и этого приложения, не рекламный идентификатор), модель устройства (производитель и модель, например «Google Pixel 9 Pro»), версия приложения, время запуска | Подсчёт установок и активных устройств (переустановка на том же телефоне не считается новым устройством), базовый мониторинг доступности, понимание, на каких устройствах работает приложение |
+| «Пинг» при открытии веб-версии (evonotes.avzory.tech) после входа: ваш аккаунт, название браузера (например «Chrome», «Firefox»), версия приложения, время открытия. Android ID и модель устройства на сайте не собираются | Подсчёт пользователей сайта (первый вход на сайт — установка, следующие — входы), понимание, в каких браузерах работает сайт |
 | Состояние системного разрешения на уведомления | Показ локальных напоминаний для событий и задач |
 
 Мы **не** собираем: точное местоположение, контакты, рекламные идентификаторы, историю браузера, аудио с микрофона вне записей, которые вы делаете явно, аналитику нажатий внутри приложения.
