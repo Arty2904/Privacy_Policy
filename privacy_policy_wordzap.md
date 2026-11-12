@@ -58,7 +58,7 @@
 
 Если вы подключите Google Диск или Яндекс Диск в разделе **Настройки → Синхронизация**, Приложение будет хранить копию ваших данных на вашем Диске, чтобы синхронизировать их между вашими устройствами:
 
-- что записывается: словари и группы словарей, слова, прогресс уроков, статистика ответов, полученные значки, ключ и модель GigaChat, а также копии этих данных за последние 7 дней — для восстановления;
+- что записывается: словари и группы словарей, их отметки (выбранные на вкладках «Словарь» и «Практика», в квадрате «Словари», в виджете) и свёрнутые группы, слова, прогресс уроков, статистика ответов, полученные значки, ключ и модель GigaChat, а также копии этих данных за последние 7 дней — для восстановления;
 - где: на Google Диске — папка «WordZap», Приложение видит только файлы, которые создало само (разрешение `drive.file`), остальные ваши файлы ему недоступны; на Яндекс Диске — папка «Приложения/WordZap»;
 - чтобы показать, какой Диск подключён, Приложение узнаёт адрес почты аккаунта Google или логин Яндекса;
 - данные передаются по HTTPS напрямую между устройством и Диском и не отправляются на серверы WordZap; ключи доступа к Диску хранятся только на устройстве;
@@ -192,7 +192,7 @@ Your answer history (correct / incorrect) is stored locally to display your acti
 
 If you connect Google Drive or Yandex Disk in **Settings → Sync**, the App keeps a copy of your data in your Drive to sync it between your devices:
 
-- what is written: dictionaries and dictionary groups, words, lesson progress, answer statistics, earned badges, the GigaChat key and model, plus copies of this data for the last 7 days — for restoring;
+- what is written: dictionaries and dictionary groups, their selections (on the Dictionary and Practice tabs, in the Dictionaries tile, in the widget) and collapsed groups, words, lesson progress, answer statistics, earned badges, the GigaChat key and model, plus copies of this data for the last 7 days — for restoring;
 - where: in Google Drive — the "WordZap" folder; the App can see only the files it has created itself (the `drive.file` permission), your other files are not accessible to it; in Yandex Disk — the "Applications/WordZap" folder;
 - to show which Drive is connected, the App reads the email address of the Google account or the Yandex login;
 - data travels over HTTPS directly between your device and the Drive and is not sent to WordZap servers; the Drive access tokens are stored only on your device;
