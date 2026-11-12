@@ -1,7 +1,7 @@
 # WordZap — Политика конфиденциальности / Privacy Policy
 
-**Дата вступления в силу: 25 октября 2026 г.**  
-**Effective date: October 25, 2026**
+**Дата вступления в силу: 12 ноября 2026 г.**  
+**Effective date: November 12, 2026**
 
 ---
 
@@ -35,7 +35,7 @@
 
 #### 1.3 Пользовательский контент
 
-Слова, переводы и заметки, которые вы вводите в Приложении, хранятся локально на вашем устройстве. На серверы Приложения эти данные не передаются.
+Слова, переводы и заметки, которые вы вводите в Приложении, хранятся локально на вашем устройстве. На серверы Приложения эти данные не передаются. Если вы подключите синхронизацию, их копия хранится на вашем Google Диске или Яндекс Диске (п. 1.7).
 
 #### 1.4 Данные, передаваемые в GigaChat
 
@@ -44,7 +44,7 @@
 - изучаемое слово — для получения примеров использования и переводов;
 - ваш личный ключ API.
 
-> 💡 Ключ GigaChat хранится только на вашем устройстве и никогда не передаётся на серверы WordZap. Обработка данных регулируется политикой конфиденциальности Сбербанка.
+> 💡 Ключ GigaChat хранится на вашем устройстве (и, если подключена синхронизация, — на вашем Диске, п. 1.7) и никогда не передаётся на серверы WordZap. Обработка данных регулируется политикой конфиденциальности Сбербанка.
 
 #### 1.5 Голосовые данные
 
@@ -52,7 +52,18 @@
 
 #### 1.6 Данные статистики
 
-История ваших ответов (правильные / неправильные) хранится локально для отображения графика активности. Эти данные не покидают устройство.
+История ваших ответов (правильные / неправильные) хранится локально для отображения графика активности. Эти данные не покидают устройство, кроме синхронизации с вашим Диском (п. 1.7).
+
+#### 1.7 Синхронизация через Google Диск или Яндекс Диск
+
+Если вы подключите Google Диск или Яндекс Диск в разделе **Настройки → Синхронизация**, Приложение будет хранить копию ваших данных на вашем Диске, чтобы синхронизировать их между вашими устройствами:
+
+- что записывается: словари и группы словарей, слова, прогресс уроков, статистика ответов, полученные значки, ключ и модель GigaChat, а также копии этих данных за последние 7 дней — для восстановления;
+- где: на Google Диске — папка «WordZap», Приложение видит только файлы, которые создало само (разрешение `drive.file`), остальные ваши файлы ему недоступны; на Яндекс Диске — папка «Приложения/WordZap»;
+- чтобы показать, какой Диск подключён, Приложение узнаёт адрес почты аккаунта Google или логин Яндекса;
+- данные передаются по HTTPS напрямую между устройством и Диском и не отправляются на серверы WordZap; ключи доступа к Диску хранятся только на устройстве;
+- данные с вашего Диска используются только для синхронизации: не используются для рекламы, не продаются и не передаются третьим лицам. Использование и передача информации, полученной из API Google, соответствует [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), включая требования Limited Use;
+- как отключить: **Настройки → Синхронизация → Отключить** — доступ Приложения к Диску отзывается. Отозвать доступ можно и на странице [myaccount.google.com/connections](https://myaccount.google.com/connections) или в настройках аккаунта Яндекса. Файлы на Диске остаются вашими — их можно удалить вручную.
 
 ---
 
@@ -75,7 +86,7 @@
 
 | Разрешение | Для чего используется |
 |---|---|
-| `INTERNET` | Вход в учётную запись, проверка версии, запросы к GigaChat API |
+| `INTERNET` | Вход в учётную запись, проверка версии, запросы к GigaChat API, синхронизация с Google Диском / Яндекс Диском |
 | `RECORD_AUDIO` | Голосовой ввод слов и заметок. Запрашивается только при нажатии на микрофон. Аудио не сохраняется |
 | `POST_NOTIFICATIONS` | Уведомление об успешном экспорте словаря. Запрашивается однократно при первом экспорте |
 | `READ_EXTERNAL_STORAGE` | Импорт файлов CSV и Excel на Android 12 и ниже. На Android 13+ не используется |
@@ -85,11 +96,11 @@
 
 ### 4. Хранение и защита данных
 
-Большинство данных (слова, переводы, заметки, статистика, настройки) хранятся исключительно на вашем устройстве. Они недоступны нам без вашего явного действия (например, экспорта).
+Большинство данных (слова, переводы, заметки, статистика, настройки) хранятся на вашем устройстве и, если подключена синхронизация, — на вашем Google Диске или Яндекс Диске. Они недоступны нам без вашего явного действия (например, экспорта).
 
 Данные учётной записи хранятся на защищённом сервере. Передача данных осуществляется по протоколу HTTPS.
 
-Ключ GigaChat API хранится в защищённом локальном хранилище устройства и не передаётся на серверы WordZap.
+Ключ GigaChat API хранится в защищённом локальном хранилище устройства (и на вашем Диске, если подключена синхронизация) и не передаётся на серверы WordZap.
 
 ---
 
@@ -158,7 +169,7 @@ Each time the App launches, it sends the following technical data to the server:
 
 #### 1.3 User Content
 
-Words, translations, and notes you enter in the App are stored locally on your device. This data is not transmitted to the App's servers.
+Words, translations, and notes you enter in the App are stored locally on your device. This data is not transmitted to the App's servers. If you turn on sync, a copy is kept in your Google Drive or Yandex Disk (section 1.7).
 
 #### 1.4 Data Sent to GigaChat
 
@@ -167,7 +178,7 @@ If you use the AI hints feature and enter a GigaChat API key, the App sends requ
 - the word being studied — to generate usage examples and translations;
 - your personal API key.
 
-> 💡 Your GigaChat API key is stored only on your device and is never transmitted to WordZap servers. Data processing by GigaChat is governed by Sberbank's privacy policy.
+> 💡 Your GigaChat API key is stored on your device (and, if sync is on, in your Drive — section 1.7) and is never transmitted to WordZap servers. Data processing by GigaChat is governed by Sberbank's privacy policy.
 
 #### 1.5 Voice Data
 
@@ -175,7 +186,18 @@ When using the voice input feature, audio is passed to the standard Android spee
 
 #### 1.6 Statistics Data
 
-Your answer history (correct / incorrect) is stored locally to display your activity chart. This data does not leave your device.
+Your answer history (correct / incorrect) is stored locally to display your activity chart. This data does not leave your device, except for syncing with your Drive (section 1.7).
+
+#### 1.7 Sync via Google Drive or Yandex Disk
+
+If you connect Google Drive or Yandex Disk in **Settings → Sync**, the App keeps a copy of your data in your Drive to sync it between your devices:
+
+- what is written: dictionaries and dictionary groups, words, lesson progress, answer statistics, earned badges, the GigaChat key and model, plus copies of this data for the last 7 days — for restoring;
+- where: in Google Drive — the "WordZap" folder; the App can see only the files it has created itself (the `drive.file` permission), your other files are not accessible to it; in Yandex Disk — the "Applications/WordZap" folder;
+- to show which Drive is connected, the App reads the email address of the Google account or the Yandex login;
+- data travels over HTTPS directly between your device and the Drive and is not sent to WordZap servers; the Drive access tokens are stored only on your device;
+- data from your Drive is used only for syncing: it is not used for advertising, not sold and not shared with third parties. The App's use and transfer of information received from Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements;
+- how to disconnect: **Settings → Sync → Disconnect** — the App's access to the Drive is revoked. You can also revoke access at [myaccount.google.com/connections](https://myaccount.google.com/connections) or in your Yandex account settings. The files in your Drive remain yours — you can delete them manually.
 
 ---
 
@@ -198,7 +220,7 @@ The App requests the following system permissions:
 
 | Permission | Purpose |
 |---|---|
-| `INTERNET` | Account sign-in, App version checks, GigaChat API requests |
+| `INTERNET` | Account sign-in, App version checks, GigaChat API requests, sync with Google Drive / Yandex Disk |
 | `RECORD_AUDIO` | Voice input of words and notes. Requested only when the microphone button is tapped. No audio is stored |
 | `POST_NOTIFICATIONS` | Notifying you when a dictionary export is complete. Requested once, on the first export |
 | `READ_EXTERNAL_STORAGE` | Importing CSV and Excel files on Android 12 and below. Not used on Android 13+ |
@@ -208,11 +230,11 @@ The App requests the following system permissions:
 
 ### 4. Data Storage and Security
 
-Most data (words, translations, notes, statistics, settings) is stored exclusively on your device and is not accessible to us without your explicit action (such as an export).
+Most data (words, translations, notes, statistics, settings) is stored on your device and, if sync is on, in your Google Drive or Yandex Disk, and is not accessible to us without your explicit action (such as an export).
 
 Account data is stored on a secure server. All data transmission uses the HTTPS protocol.
 
-Your GigaChat API key is stored in the device's secure local storage and is never sent to WordZap servers.
+Your GigaChat API key is stored in the device's secure local storage (and in your Drive, if sync is on) and is never sent to WordZap servers.
 
 ---
 
@@ -250,4 +272,4 @@ For any questions regarding this Privacy Policy, you can reach us:
 
 ---
 
-*WordZap · Privacy Policy · March 12, 2026*
+*WordZap · Privacy Policy · November 12, 2026*

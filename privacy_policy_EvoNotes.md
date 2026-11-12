@@ -2,7 +2,7 @@
 
 **Application:** EvoNotes
 **Package:** `com.avzory.EvoNotes`
-**Effective date:** 2026-11-01
+**Effective date:** 2026-11-12
 **Contact:** evonotes@avzory.com
 
 ---
@@ -50,6 +50,16 @@ We do **not** collect: precise location, contacts, advertising identifiers, brow
 - Scheduled local notifications.
 - Events from your phone's calendars (Google Calendar, Samsung Calendar, Outlook and others synced to the device) — only if you turn on calendars in the calendar tab menu. They are read with the Android "Calendar" permission solely to display them in EvoNotes; they are never copied into the app, synced, backed up or sent to our server. The list of calendars you selected is stored on the device.
 
+### 2.5 Sync via Google Drive or Yandex Disk (if you choose it)
+
+Instead of our server, you can sync through your own Google Drive or Yandex Disk. Then:
+
+- what is written to your Drive: notes, to-dos, events, habits, time tracking sessions, folders, some settings (kanban columns, features, pomodoro) and audio recordings, plus copies of this data for the last 7 days — for restoring;
+- where: in Google Drive — the "EvoNotes" folder; the app can see only the files it has created itself (the `drive.file` permission), your other files are not accessible to it; in Yandex Disk — the "Applications/EvoNotes" folder;
+- connecting a Drive also signs you in to EvoNotes with the same account: our server receives the email (and, for Google, the name) as described in section 2.1, but your content goes directly between your device and the Drive over HTTPS and is not sent to our server;
+- data from your Drive is used only for syncing: it is not used for advertising, not sold and not shared with third parties. The app's use and transfer of information received from Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements;
+- how to stop: sign out of the Drive in the app's sync settings; you can revoke the app's access at any time at [myaccount.google.com/connections](https://myaccount.google.com/connections) or in your Yandex account settings. The files in your Drive remain yours — you can delete them manually.
+
 ## 3. Why We Collect This Data (Legal Basis)
 
 - **Performance of a contract** — we need your account data and content to actually provide the service you signed up for.
@@ -60,6 +70,7 @@ We do **not** collect: precise location, contacts, advertising identifiers, brow
 
 - **On your device**: in the app's private storage (SQLite + SharedPreferences). Other apps cannot read it.
 - **On our server** (`avzory.tech`, EU/Russia region): account record and a synced copy of your content, kept while your account exists.
+- **In your Google Drive or Yandex Disk**: if you choose disk sync (section 2.5) — your content and its copies for the last 7 days, kept until you delete them.
 - **Google / Firebase**: if you use Google Sign-In, Google authenticates you according to its own privacy policy (https://policies.google.com/privacy). We receive only your email, name, and a one-time ID token.
 - **GitHub** (`Arty2904/Config`): we host *only* the public update configuration there (minimum version, update links, server URL). No user data is sent to GitHub.
 
@@ -119,7 +130,7 @@ Questions, requests, or complaints: **evonotes@avzory.com**
 
 **Приложение:** EvoNotes
 **Идентификатор пакета:** `com.avzory.EvoNotes`
-**Дата вступления в силу:** 2026-11-01
+**Дата вступления в силу:** 2026-11-12
 **Контакт:** evonotes@avzory.com
 
 ---
@@ -167,6 +178,16 @@ EvoNotes — это персональный органайзер для зам�
 - Запланированные локальные уведомления.
 - События календарей телефона (Google Календарь, календарь Samsung, Outlook и другие, синхронизированные с устройством) — только если вы включите календари в меню вкладки «Календарь». Они читаются по разрешению Android «Календарь» исключительно для показа в EvoNotes: не копируются в приложение, не синхронизируются, не попадают в бэкап и не отправляются на наш сервер. Список выбранных календарей хранится на устройстве.
 
+### 2.5 Синхронизация через Google Диск или Яндекс Диск (если вы её выбрали)
+
+Вместо нашего сервера можно синхронизироваться через свой Google Диск или Яндекс Диск. Тогда:
+
+- что записывается на ваш Диск: заметки, задачи, события, привычки, сессии учёта времени, папки, часть настроек (колонки канбана, функции, помодоро) и аудиозаписи, а также копии этих данных за последние 7 дней — для восстановления;
+- где: на Google Диске — папка «EvoNotes», приложение видит только файлы, которые создало само (разрешение `drive.file`), остальные ваши файлы ему недоступны; на Яндекс Диске — папка «Приложения/EvoNotes»;
+- подключение Диска одновременно выполняет вход в EvoNotes тем же аккаунтом: наш сервер получает email (и, для Google, имя), как описано в п. 2.1, а ваш контент передаётся по HTTPS напрямую между устройством и Диском и на наш сервер не отправляется;
+- данные с вашего Диска используются только для синхронизации: не используются для рекламы, не продаются и не передаются третьим лицам. Использование и передача информации, полученной из API Google, соответствует [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), включая требования Limited Use;
+- как отключить: выйдите из Диска в настройках синхронизации приложения; отозвать доступ приложения можно в любой момент на странице [myaccount.google.com/connections](https://myaccount.google.com/connections) или в настройках аккаунта Яндекса. Файлы на Диске остаются вашими — их можно удалить вручную.
+
 ## 3. Зачем мы собираем эти данные (правовое основание)
 
 - **Исполнение договора** — без данных аккаунта и контента мы не сможем оказать услугу, на которую вы подписались.
@@ -177,6 +198,7 @@ EvoNotes — это персональный органайзер для зам�
 
 - **На вашем устройстве**: в приватном хранилище приложения (SQLite + SharedPreferences). Другие приложения не имеют к нему доступа.
 - **На нашем сервере** (`avzory.tech`): запись об аккаунте и синхронизированная копия контента — пока существует ваш аккаунт.
+- **На вашем Google Диске или Яндекс Диске**: если вы выбрали синхронизацию через диск (п. 2.5) — ваш контент и его копии за последние 7 дней, пока вы их не удалите.
 - **Google / Firebase**: если вы используете вход через Google, Google аутентифицирует вас по своей политике конфиденциальности (https://policies.google.com/privacy). Мы получаем только email, имя и одноразовый ID token.
 - **GitHub** (`Arty2904/Config`): там лежит **только** публичный конфиг обновлений (минимальная версия, ссылки на обновление, адрес сервера). Никакие пользовательские данные туда не отправляются.
 
